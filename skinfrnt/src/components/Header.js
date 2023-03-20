@@ -25,25 +25,21 @@ function Header() {
               <Link className='text-white'>MachineGunYurt</Link>
             </h2>
           </div>
-          <div className='col-4'>
+          <div className='col-3'>
           <div className="input-group">
           <input type="text" class="form-control py-2" placeholder="Search from Products" aria-label="Search from Products" aria-describedby="basic-addon2" />
           <span className="input-group-text" id="basic-addon2"><BsSearch className='fs-6'/></span>
           </div> 
           </div>
-          <div className='col-5'>
+          <div className='col-3'>
             <div className='header-upper-links d-flex align-items-center justify-content-between'>
-              <div>
-                <Link><img src={require('../images/skin1.webp')} alt=''/></Link>
+              <div className='Mbigger'>
+                <Link><img src={require('../images/login.png')} alt='Login'/></Link>
+                <p>Log in <br/> Create account</p>
               </div>
               <div>
-                <Link></Link>
-              </div>
-              <div>
-                <Link></Link>
-              </div>
-              <div>
-                <Link></Link>
+              <Link><img src={require('../images/cart.png')} alt='Cart'/></Link>
+                <p>Add to Cart</p>
               </div>
             </div>
           </div>
